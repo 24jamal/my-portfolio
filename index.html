@@ -1,5 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<style>
+  .btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+
+  .btn-primary:active {
+    transform: scale(0.95);
+  }
+</style>
 <head>
   <meta charset="utf-8">
   <title>Jamal - Portfolio</title>
@@ -37,7 +60,7 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Mohamed Jamaludeen</a>
+      <a class="navbar-brand js-scroll" style="font-family: cursive;" href="#page-top">Mohamed Jamaludeen</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -78,7 +101,7 @@
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
           <h1 class="intro-title mb-4">I am Mohamed Jamaludeen J</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Web Developer,Web Designer,Frontend Developer,Dotnet Developer,DevOps,Mobile App Developer</span><strong class="text-slider"></strong></p>
+          <p class="intro-subtitle" style="font-family: 'Courier New', Courier, monospace"><span class="text-slider-items">Web Developer,Web Designer,Frontend Developer,.NET Developer,DevOps,Mobile App Developer</span><strong class="text-slider"></strong></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -131,6 +154,8 @@
                       aria-valuemax="100"></div>
                   </div>
                 </div>
+                <div ><h3><a class="btn-primary mb-1" style="margin: 10px;" href = "files/Jamal_Modern_resume.pdf" download ="files/Jamal_Modern_resume.pdf">Download CV</a></h3></div>
+                
               </div>
               <div class="col-md-6">
                 <div class="about-me pt-4 pt-md-0">
